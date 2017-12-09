@@ -1,0 +1,194 @@
+[
+  {
+    "id": 808,
+    "name": "Russia",
+    "players": [],
+    "group": "A"
+  },
+  {
+    "id": 801,
+    "name": "Saudi Arabia",
+    "players": [],
+    "group": "A"
+  },
+  {
+    "id": 825,
+    "name": "Egypt",
+    "players": [],
+    "group": "A"
+  },
+  {
+    "id": 758,
+    "name": "Uruguay",
+    "players": [],
+    "group": "A"
+  },
+  {
+    "id": 765,
+    "name": "Portugal",
+    "players": [],
+    "group": "B"
+  },
+  {
+    "id": 760,
+    "name": "Spain",
+    "players": [],
+    "group": "B"
+  },
+  {
+    "id": 815,
+    "name": "Morocco",
+    "players": [],
+    "group": "B"
+  },
+  {
+    "id": 840,
+    "name": "Iran",
+    "players": [],
+    "group": "B"
+  },
+  {
+    "id": 773,
+    "name": "France",
+    "players": [],
+    "group": "C"
+  },
+  {
+    "id": 779,
+    "name": "Australia",
+    "players": [],
+    "group": "C"
+  },
+  {
+    "id": 832,
+    "name": "Peru",
+    "players": [],
+    "group": "C"
+  },
+  {
+    "id": 782,
+    "name": "Denmark",
+    "players": [],
+    "group": "C"
+  },
+  {
+    "id": 762,
+    "name": "Argentina",
+    "players": [],
+    "group": "D"
+  },
+  {
+    "id": 1066,
+    "name": "Iceland",
+    "players": [],
+    "group": "D"
+  },
+  {
+    "id": 799,
+    "name": "Croatia",
+    "players": [],
+    "group": "D"
+  },
+  {
+    "id": 776,
+    "name": "Nigeria",
+    "players": [],
+    "group": "D"
+  },
+  {
+    "id": 764,
+    "name": "Brazil",
+    "players": [],
+    "group": "E"
+  },
+  {
+    "id": 788,
+    "name": "Switzerland",
+    "players": [],
+    "group": "E"
+  },
+  {
+    "id": 793,
+    "name": "Costa Rica",
+    "players": [],
+    "group": "E"
+  },
+  {
+    "id": 780,
+    "name": "Serbia",
+    "players": [],
+    "group": "E"
+  },
+  {
+    "id": 759,
+    "name": "Germany",
+    "players": [],
+    "group": "F"
+  },
+  {
+    "id": 769,
+    "name": "Mexico",
+    "players": [],
+    "group": "F"
+  },
+  {
+    "id": 792,
+    "name": "Sweden",
+    "players": [],
+    "group": "F"
+  },
+  {
+    "id": 772,
+    "name": "Korea Republic",
+    "players": [],
+    "group": "F"
+  },
+  {
+    "id": "805",
+    "name": "Belgium",
+    "players": [],
+    "group": "G"
+  },
+  {
+    "id": "770",
+    "name": "England",
+    "players": [],
+    "group": "G"
+  },
+  {
+    "id": "1836",
+    "name": "Panama",
+    "players": [],
+    "group": "G"
+  },
+  {
+    "id": "802",
+    "name": "Tunisia",
+    "players": [],
+    "group": "G"
+  },
+  {
+    "id": "794",
+    "name": "Poland",
+    "players": [],
+    "group": "H"
+  },
+  {
+    "id": "804",
+    "name": "Senegal",
+    "players": [],
+    "group": "H"
+  },
+  {
+    "id": "818",
+    "name": "Colombia",
+    "players": [],
+    "group": "H"
+  },
+  {
+    "id": "766",
+    "name": "Japan",
+    "players": [],
+    "group": "H"
+  }
+]
