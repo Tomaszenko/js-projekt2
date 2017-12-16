@@ -1,0 +1,9 @@
+app-group {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+button {
+  background-color: #0088cc;
+}

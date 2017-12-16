@@ -1,0 +1,26 @@
+.group-fixture {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+span {
+  flex: 1;
+  margin: 0 2%;
+}
+
+input {
+  width: 20%;
+  margin: 0 2%;
+}

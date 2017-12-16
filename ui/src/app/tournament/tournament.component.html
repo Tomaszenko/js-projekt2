@@ -1,0 +1,25 @@
+<button mat-button>Next stage <mat-icon aria-hidden="false" svgIcon="img:forward"></mat-icon></button>
+<h1>Group stage</h1>
+<mat-tab-group (selectedTabChange)="changeGroup($event)">
+  <mat-tab label="Group A">
+  </mat-tab>
+  <mat-tab label="Group B">
+  </mat-tab>
+  <mat-tab label="Group C">
+  </mat-tab>
+  <mat-tab label="Group D">
+  </mat-tab>
+  <mat-tab label="Group E">
+  </mat-tab>
+  <mat-tab label="Group F">
+  </mat-tab>
+  <mat-tab label="Group G">
+  </mat-tab>
+  <mat-tab label="Group H">
+  </mat-tab>
+</mat-tab-group>
+
+<div *ngFor="let group of groups">
+<app-group *ngIf="group===selectedGroup" [letter]="group"
+           [fixtures]="groupMatches[group]" [teams]="teams[group]"></app-group>
+</div>

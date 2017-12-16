@@ -1,0 +1,162 @@
+[
+  {
+    "id": 808,
+    "name": "Russia",
+    "group": "A"
+  },
+  {
+    "id": 801,
+    "name": "Saudi Arabia",
+    "group": "A"
+  },
+  {
+    "id": 825,
+    "name": "Egypt",
+    "group": "A"
+  },
+  {
+    "id": 758,
+    "name": "Uruguay",
+    "group": "A"
+  },
+  {
+    "id": 765,
+    "name": "Portugal",
+    "group": "B"
+  },
+  {
+    "id": 760,
+    "name": "Spain",
+    "group": "B"
+  },
+  {
+    "id": 815,
+    "name": "Morocco",
+    "group": "B"
+  },
+  {
+    "id": 840,
+    "name": "Iran",
+    "group": "B"
+  },
+  {
+    "id": 773,
+    "name": "France",
+    "group": "C"
+  },
+  {
+    "id": 779,
+    "name": "Australia",
+    "group": "C"
+  },
+  {
+    "id": 832,
+    "name": "Peru",
+    "group": "C"
+  },
+  {
+    "id": 782,
+    "name": "Denmark",
+    "group": "C"
+  },
+  {
+    "id": 762,
+    "name": "Argentina",
+    "group": "D"
+  },
+  {
+    "id": 1066,
+    "name": "Iceland",
+    "group": "D"
+  },
+  {
+    "id": 799,
+    "name": "Croatia",
+    "group": "D"
+  },
+  {
+    "id": 776,
+    "name": "Nigeria",
+    "group": "D"
+  },
+  {
+    "id": 764,
+    "name": "Brazil",
+    "group": "E"
+  },
+  {
+    "id": 788,
+    "name": "Switzerland",
+    "group": "E"
+  },
+  {
+    "id": 793,
+    "name": "Costa Rica",
+    "group": "E"
+  },
+  {
+    "id": 780,
+    "name": "Serbia",
+    "group": "E"
+  },
+  {
+    "id": 759,
+    "name": "Germany",
+    "group": "F"
+  },
+  {
+    "id": 769,
+    "name": "Mexico",
+    "group": "F"
+  },
+  {
+    "id": 792,
+    "name": "Sweden",
+    "group": "F"
+  },
+  {
+    "id": 772,
+    "name": "Korea Republic",
+    "group": "F"
+  },
+  {
+    "id": 805,
+    "name": "Belgium",
+    "group": "G"
+  },
+  {
+    "id": 770,
+    "name": "England",
+    "group": "G"
+  },
+  {
+    "id": 1836,
+    "name": "Panama",
+    "group": "G"
+  },
+  {
+    "id": 802,
+    "name": "Tunisia",
+    "group": "G"
+  },
+  {
+    "id": 794,
+    "name": "Poland",
+    "group": "H"
+  },
+  {
+    "id": 804,
+    "name": "Senegal",
+    "group": "H"
+  },
+  {
+    "id": 818,
+    "name": "Colombia",
+    "group": "H"
+  },
+  {
+    "id": 766,
+    "name": "Japan",
+    "group": "H"
+  }
+]
