@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Fixture} from "../../../models/fixture";
 
 @Component({
@@ -7,8 +7,9 @@ import {Fixture} from "../../../models/fixture";
   styleUrls: ['./group-fixture.component.css']
 })
 export class GroupFixtureComponent implements OnInit {
-  @Input()
-  fixture: Fixture;
+  @Input() fixture: Fixture;
+
+  @Output() fixtureChange = new EventEmitter<Fixture>();
 
   constructor() { }
 

@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Fixture} from "../../models/fixture";
 
 @Component({
@@ -8,8 +8,9 @@ import {Fixture} from "../../models/fixture";
 })
 export class GroupFixtureListComponent implements OnInit {
 
-  @Input()
-  fixtures: Array<Fixture>;
+  @Input() fixtures: Array<Fixture>;
+
+  @Output() fixturesChange = new EventEmitter<Array<Fixture>>();
 
   constructor() { }
 

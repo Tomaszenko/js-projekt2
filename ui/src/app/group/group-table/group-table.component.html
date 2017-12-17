@@ -1,3 +1,35 @@
-<p>
-  group-table works!
-</p>
+<mat-table #table [dataSource]="dataSource">
+  <ng-container matColumnDef="Team">
+    <mat-header-cell *matHeaderCellDef> Team </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="Scored">
+    <mat-header-cell *matHeaderCellDef> Scored </mat-header-cell>
+    <mat-cell *matCellDef="let element"> 0 </mat-cell>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="Lost">
+    <mat-header-cell *matHeaderCellDef> Lost </mat-header-cell>
+    <mat-cell *matCellDef="let element"> 0 </mat-cell>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="Difference">
+    <mat-header-cell *matHeaderCellDef> Difference </mat-header-cell>
+    <mat-cell *matCellDef="let element"> 0 </mat-cell>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="Points">
+    <mat-header-cell *matHeaderCellDef> Points </mat-header-cell>
+    <mat-cell *matCellDef="let element"> 0 </mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+</mat-table>
+

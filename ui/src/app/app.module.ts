@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTableModule}  from "@angular/material";
+import {CdkTableModule} from '@angular/cdk/table';
 
 import { AppComponent } from './app.component';
 import {AppRoutingModule} from "./app.routing.module";
@@ -33,6 +35,7 @@ import {FormsModule} from "@angular/forms";
     MatTabsModule,
     MatButtonModule,
     MatIconModule,
+    MatTableModule,
     HttpClientModule,
     FormsModule
   ],
