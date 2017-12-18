@@ -25,8 +25,7 @@ export class TournamentComponent implements OnInit {
   groupMatches: any = {};
 
   constructor(private service: TournamentService, iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
-    iconRegistry.addSvgIconInNamespace('img',
-      'forward',
+    iconRegistry.addSvgIconInNamespace('img', 'forward',
       sanitizer.bypassSecurityTrustResourceUrl('assets/img/forward.svg'));
   }
 

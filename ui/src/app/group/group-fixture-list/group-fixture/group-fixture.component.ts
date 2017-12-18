@@ -16,4 +16,16 @@ export class GroupFixtureComponent implements OnInit {
   ngOnInit() {
   }
 
+  changeHomeGoals($event: any) {
+    console.log($event);
+    this.fixture.goalsHome = $event;
+    this.fixtureChange.emit(this.fixture);
+    // this.fixture.goalsHome = $event.value;
+  }
+
+  changeAwayGoals($event: any) {
+    console.log($event);
+    this.fixture.goalsAway = $event;
+    this.fixtureChange.emit(this.fixture);
+  }
 }

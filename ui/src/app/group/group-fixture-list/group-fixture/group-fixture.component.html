@@ -4,7 +4,7 @@
     <span style="text-align: left">{{fixture.teamAway.name}}</span>
   </div>
   <div class="input-section">
-    <input style="text-align: right" type="number" [(ngModel)]="fixture.goalsHome">
-    <input style="text-align: left" type="number" [(ngModel)]="fixture.goalsAway">
+    <input #homeInput style="text-align: right" type="number" [ngModel]="fixture.goalsHome" (change)="changeHomeGoals(homeInput.valueAsNumber)">
+    <input #awayInput style="text-align: left" type="number" [ngModel]="fixture.goalsAway" (change)="changeAwayGoals(awayInput.valueAsNumber)">
   </div>
 </div>

@@ -17,4 +17,8 @@ export class GroupFixtureListComponent implements OnInit {
   ngOnInit() {
   }
 
+  setFixture(i: number, $event: Fixture) {
+    this.fixtures[i] = $event;
+    this.fixturesChange.emit(this.fixtures);
+  }
 }

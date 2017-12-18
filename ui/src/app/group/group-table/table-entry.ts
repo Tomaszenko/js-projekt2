@@ -3,6 +3,7 @@ export class TableEntry {
   points: number;
   scored: number;
   lost: number;
+  difference: number;
 
 
   constructor(team: string, points: number, scored: number, lost: number) {
@@ -10,5 +11,6 @@ export class TableEntry {
     this.points = points;
     this.scored = scored;
     this.lost = lost;
+    this.difference = scored - lost;
   }
 }

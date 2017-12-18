@@ -1,5 +1,5 @@
 <ng-content></ng-content>
 
-<app-group-table [teams]="teams"></app-group-table>
+<app-group-table [teams]="tableEntries"></app-group-table>
 <app-group-fixture-list [fixtures]="fixtures" (fixturesChange)="recalculateTable($event)"></app-group-fixture-list>
 

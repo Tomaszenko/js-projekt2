@@ -1,1 +1,1 @@
-<app-group-fixture *ngFor="let fixture of fixtures; let i=index" [(fixture)]="fixtures[i]"></app-group-fixture>
+<app-group-fixture *ngFor="let fixture of fixtures; let i=index" [fixture]="fixtures[i]" (fixtureChange)="setFixture(i, $event)"></app-group-fixture>
